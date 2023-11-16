@@ -52,13 +52,15 @@ def new_user() :
     FB_page_id = st.text_input(label="Facebook Page ID :")
     FB_post_id = st.text_input(label="Facebook Post ID :")
     INS_post_id = st.text_input(label="Instagram Post ID :")
+    FB_access = st.text_input(label="Facebook Access :")
+    INS_access = st.text_input(label="Instagram Access :")
     Score = 10.00
     if st.button("Register"):
         if cheak_company(company_name):
             st.error(f"Company exists")
         else :
-            q = f'''INSERT INTO `companydetails` (`CompanyName`, `Email`, `FB_page_id`, `FB_post_id`, `INS_post_id`, `Score`) VALUES
-                ('{company_name}', '{email}', '{FB_page_id}', '{FB_post_id}', '{INS_post_id}', {Score});'''
+            q = f'''INSERT INTO `companydetails` (`CompanyName`, `Email`, `FB_page_id`, `FB_post_id`, `INS_post_id`,`FB_user_access` ,`INS_user_access` ,`Score`) VALUES
+                ('{company_name}', '{email}', '{FB_page_id}', '{FB_post_id}', '{INS_post_id}','{FB_access}' ,'{INS_access}' ,{Score});'''
             con = connection.connect()
             stm = con.cursor()
             stm.execute(q)
