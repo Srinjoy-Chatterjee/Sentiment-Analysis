@@ -1,0 +1,8 @@
+#FB_page_id = '61553129864051'
+#FB_post_id = '122106163322104328'
+FB_user_access_token = 'EAASOkvGZCUtkBO97ZBwxF5uYaLL8dZCa67ZAPIx1p0Y4eveZC69Cl1m5ubShoZCM5mdvIFXVjNps4AreG0am0tAivCZArJH26Sf7fJ3xEfCTuLZBOyK1JBr5H72YWEJ2cYO5tHz29klP1LOxLmZBzlEkjLZA8Q8xA1umHfSSEwZCJ6pkDyvqwVayZAtIkxFH6skGZBMX1yHBrndsZD'
+#INS_post_id = '17991588476185435'
+INS_user_access_token = 'EABuZB7zka0uUBO7WQKcdoK1V0569xsjuxP2mkaVBCeLGxueC3yxuiRVn1AyzZAMbg4es5jHcdN0ZBdcCyy0S3cZAXWc19bdnUFUvPELnKX3e48Sg47vxERTUS7tdFguy0fbUM6PvgPkQeCxq6sVkMfkNmbUqIJY4q2ZAYZAJfUQt1elOx9fPpdWuWy5meWuePT'
+Sender_mail = "emailsender647@gmail.com"
+AppPassword = "uakc bjgp bbhs lilv"
+#Reciver_Mail = "companytest889@gmail.com"
